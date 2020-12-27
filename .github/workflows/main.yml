@@ -52,7 +52,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            mkdir /root/dd
             cd /root/dd
             wget https://github.com/bao2264/realworld/releases/latest/download/release.tgz -O release.tgz
             tar zxvf release.tgz
